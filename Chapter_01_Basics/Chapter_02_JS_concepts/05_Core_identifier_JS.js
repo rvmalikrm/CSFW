@@ -11,3 +11,20 @@ console.log(_a + $b); // _a and $b are identifiers, + is an operator, _a + $b is
 
 // Literal: A fixed value that is directly represented in the code. 
 // Examples: 42 (number literal), "Hello" (string literal),true (boolean literal).
+
+// Example for Identifier
+var myVariable = 10; // myVariable is an identifier, 10 is a literal
+function myFunction() { // myFunction is an identifier
+    return "Hello"; // "Hello" is a string literal
+    }
+
+
+var π = 3.14; // π is an identifier, 3.14 is a number literal
+console.log(π); // π is an identifier
+ 
+
+var Φ = 3.14; 
+console.log(Φ);
+
+// var & = 3.14; 
+// console.log(&);
