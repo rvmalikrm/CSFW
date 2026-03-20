@@ -1,5 +1,5 @@
 let count = 42;
-let negative number = -5;
+let negative_number = -5;
 let binary = 0b1010; // Binary literal (10 in decimal)
 let octal = 0o755; // Octal literal (493 in decimal)
 let hexadecimal = 0xFF; // Hexadecimal literal (255 in decimal)
