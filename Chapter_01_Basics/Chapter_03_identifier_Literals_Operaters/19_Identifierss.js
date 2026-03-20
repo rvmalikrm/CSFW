@@ -1,4 +1,4 @@
-let class = "Hello World";
+let classes = "Hello World";
 // SyntaxError: Unexpected token 'class'
 
 
