@@ -13,3 +13,9 @@ console.log(browsers[2]);
 
 browsers[1]="Safari";
 console.log(browsers);
+
+let arr2=[1,2,3,4]
+console.log(arr2.length); // length is property of array which gives the number of elements in the array
+console.log(arr2[0]);
+console.log(arr2[3]);
+console.log(arr2[4]);
