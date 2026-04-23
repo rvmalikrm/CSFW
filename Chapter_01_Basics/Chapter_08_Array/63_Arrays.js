@@ -19,3 +19,14 @@ console.log(arr2.length); // length is property of array which gives the number 
 console.log(arr2[0]);
 console.log(arr2[3]);
 console.log(arr2[4]);
+
+
+// Array Constructor
+
+let arr3= new Array(5); // creates an array of length 5 with empty slots
+let arr4= new Array(1,2,3,4,5); // creates an array with the given elements
+console.log(arr3);
+console.log(arr4);
+
+let arr5= Array.of(1,2,3,4,5); // creates an array with the given elements
+console.log(arr5);
