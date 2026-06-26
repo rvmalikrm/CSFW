@@ -1,1 +1,8 @@
-32
+export default function log(message)
+{
+    console.log("[LOG] "+message);      
+}
+export function log2(message)
+{
+    console.log("[LOG] "+message);      
+}
