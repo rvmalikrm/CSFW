@@ -16,3 +16,10 @@ function greetUser(name: string): string {
 }
 
 // Arrow function annotation
+const multiply= (a: number, b: number): number => a*b;
+
+// Object annotation
+ let user1: {name:string ; age: number}={
+    name:"JOhn",
+    age:30
+ };
