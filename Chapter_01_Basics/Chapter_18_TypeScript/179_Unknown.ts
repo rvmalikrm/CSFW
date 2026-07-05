@@ -1,0 +1,18 @@
+let unknown: unknown = "Hello, TypeScript!";
+
+if(typeof unknown === "string") {
+    console.log(`The unknown variable is a string: ${unknown}`);
+}
+
+let message: string = "Hello";
+
+let username:string = "Ravi";
+let userID:number;
+
+// Function annotation
+function greetUser(name: string): string {
+    return 'Hello,${name}!';
+
+}
+
+// Arrow function annotation
