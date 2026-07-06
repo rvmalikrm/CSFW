@@ -23,3 +23,15 @@ logBug({
         "4. Click on the submit button"
     ]
 })
+
+console.log("--------------------------------------------------");
+logBug({
+    id: 102,
+    title: "UI misalignment on dashboard",
+    severity: "medium", 
+    stepsToReproduce: [
+        "1. Open the application",
+        "2. Navigate to the dashboard",
+        "3. Observe the misalignment of UI elements"
+    ]
+})
