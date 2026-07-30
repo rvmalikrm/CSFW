@@ -9,6 +9,8 @@ interface TestConfig {
 let ciConfig: Testconfig = {
     browser: "chrome",
     headless: true,
+    timeout: 2500,
+    retries:5,
     baseUrl: "https://staging.app.com",
 };
 
